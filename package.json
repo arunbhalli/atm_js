@@ -1,9 +1,13 @@
 {
-  "name": "atm_js",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^4.3.4"
-  }
+    "name": "atm_js",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "mocha": "^8.3.2"
+    },
+    "scripts": {
+        "test": "mocha --recursive --exit specs"
+    }
 }
