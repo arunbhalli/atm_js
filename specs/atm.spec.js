@@ -6,7 +6,9 @@ describe('Atm class', () => {
     let subject
 
     before(() => {
-        subject = new Atm()
+        subject = new Atm({
+            initialFunds: 1000
+        })
 
     });
     it('is expected to be instantiated', () => {

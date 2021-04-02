@@ -1,11 +1,11 @@
-class Atm{
-    constructor(){
-        this.funds=1000
+class Atm {
+    constructor(options) {
+        this.funds = options.initialFunds
     }
-   
-    withdraw(amount){
+
+    withdraw(amount) {
         this.funds -= amount
     }
-   }
-   
-   module.exports=Atm
+}
+
+module.exports = Atm
